@@ -9,7 +9,7 @@ body {
 .container {
     width: 60%;
     margin: auto;
-    border: 2px solid black;
+    border: 2px dashed black;
     border-radius: 10px;
 }
 
@@ -39,10 +39,18 @@ button {
     background: red;
     border: 1px solid black;
 }
+#increment-btn:hover{
+    background-color: white;
+    color: red;
+}
 
 #save-btn {
     background: green;
     border: 1px solid black;
+}
+#save-btn:hover{
+    background-color: white;
+    color: green;
 }
 
 #save-el {
