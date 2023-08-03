@@ -57,3 +57,28 @@ button {
     color: black;
     font-weight: bold;
 }
+
+#decrement-btn{
+    background: blue;
+    border: 1px solid black;
+}
+
+#increment-btn:hover{
+    background-color: white;
+    color: blue;
+}
+
+#error {
+    color: red;
+    font-weight: 200;
+}
+
+#reset-btn{
+    background: yellow;
+    border: 1px solid black;
+}
+
+#reset-btn:hover{
+    background-color: white;
+    color: yellow;
+}
